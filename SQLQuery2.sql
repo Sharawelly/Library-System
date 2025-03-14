@@ -1,0 +1,1 @@
+﻿select category.classificationCode from category join book on book.categoryId=category.classificationCode  where book.ISBN=62
